@@ -86,7 +86,7 @@ const LandingPage = () => {
       {/* Navigation */}
       <nav className="py-4 px-4 md:px-8 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/logo.png" alt="Rudys.AI Logo" className="h-8 md:h-10" />
+          <img src="/rudys-logo.png" alt="Rudys.AI Logo" className="h-8 md:h-10" />
         </div>
         <div className="hidden md:flex items-center space-x-8">
           <a href="#features" onClick={(e) => handleSmoothScroll(e, 'features')} className="text-gray-700 hover:text-blue-600 transition-colors">Features</a>
@@ -117,10 +117,10 @@ const LandingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                Your AI co-pilot for keyword research and Google Search campaigns.
+                Create and Manage Google Search Campaigns in Languages You Don't Speak
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-10">
-                Discover high-impact keywords and launch search campaigns — all through a smart, conversational experience. And more is yet to come.
+                Rudy scales your Google Search campaigns internationally by doing local keyword research, selecting high-converting terms, and launching campaigns in just a few clicks.
               </p>
               <a href="#waitlist" onClick={(e) => handleSmoothScroll(e, 'waitlist')}>
                 <Button className="btn-hero">
@@ -146,10 +146,10 @@ const LandingPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Meet Rudy – your personal Google Ads expert.</h2>
           <div className="flex flex-col md:flex-row items-center justify-center mb-16">
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 md:mb-0 md:mr-8">
-              <img src="/rudy.jpeg" alt="Rudy" className="w-full h-full object-cover" />
+              <img src="/rudy-profile.png" alt="Rudy" className="w-full h-full object-cover" />
             </div>
             <p className="text-xl text-gray-600 max-w-lg text-center md:text-left">
-              Your AI-powered Google Ads expert, available 24/7 to help optimize your campaigns and improve your results.
+              Rudy is different. He creates and manages Google Search campaigns the way we believe a true specialist should.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -157,22 +157,22 @@ const LandingPage = () => {
               <div className="rounded-full bg-blue-100 w-12 h-12 flex items-center justify-center mb-6">
                 <MessageSquare className="text-blue-600 h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3">A Conversational Way to Manage Google Ads</h3>
-              <p className="text-gray-600">Manage your Google Ads through natural conversation. Rudy guides you step by step, understands commands, and instantly updates results.</p>
+              <h3 className="text-xl font-bold mb-3">Rudy starts with a tightly focused campaign, just like he would if it were his own money. If it proves efficient, only then does he scale.</h3>
+              <p className="text-gray-600">Rudy starts with a tightly focused campaign, just like he would if it were his own money. If it proves efficient, only then does he scale.</p>
             </div>
             <div className="feature-card">
               <div className="rounded-full bg-blue-100 w-12 h-12 flex items-center justify-center mb-6">
                 <Search className="text-blue-600 h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Smarter Keyword Research</h3>
-              <p className="text-gray-600">Tell Rudy your topic and location, and get comprehensive keyword ideas including synonyms and local variations. Refine your list through chat commands instantly.</p>
+              <h3 className="text-xl font-bold mb-3">Campaigns in Any Language</h3>
+              <p className="text-gray-600">Rudy does local keyword research in the native language and suggests only relevant terms with search volume. He writes responsive ads in the local style and your tone of voice — and shows you exactly what's being said.</p>
             </div>
             <div className="feature-card">
               <div className="rounded-full bg-blue-100 w-12 h-12 flex items-center justify-center mb-6">
                 <Target className="text-blue-600 h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Effortless Google Search Campaign Setup</h3>
-              <p className="text-gray-600">Transform keywords into structured campaigns instantly. Provide budget and settings, and Rudy creates ad groups and writes brand-aligned ads that sound authentically yours.</p>
+              <h3 className="text-xl font-bold mb-3">3. Soon: Fully Local Management</h3>
+              <p className="text-gray-600">Rudy will soon manage your local campaigns too. He'll review search terms and exclude anything irrelevant — just like a senior specialist would.</p>
             </div>
           </div>
         </div>
@@ -227,13 +227,13 @@ const LandingPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
               <div className="h-1 w-24 bg-blue-600 mb-6"></div>
-              <h3 className="text-xl font-bold mb-4">Multilingual Keyword Research & Campaigns</h3>
-              <p className="text-gray-600">Soon, you'll be able to research keywords and launch campaigns in languages you don't even speak — all handled seamlessly by Rudy.</p>
+              <h3 className="text-xl font-bold mb-4">Smart Keyword Expansion</h3>
+              <p className="text-gray-600">Rudy analyzes your top-performing keywords and search terms to find out what works. Based on that, he runs additional research to expand your account with new high-converting keywords.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
               <div className="h-1 w-24 bg-blue-600 mb-6"></div>
-              <h3 className="text-xl font-bold mb-4">Search Term Analysis & Exclusions</h3>
-              <p className="text-gray-600">Rudy will help analyze your search terms and let you exclude irrelevant queries with a simple chat command. Rudy can even execute the exclusions for you.</p>
+              <h3 className="text-xl font-bold mb-4">Search Term Analysis</h3>
+              <p className="text-gray-600">Rudy reviews your search terms to exclude irrelevant traffic and add valuable new ones to your account.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 relative overflow-hidden">
               <div className="h-1 w-24 bg-blue-600 mb-6"></div>
@@ -396,7 +396,6 @@ const LandingPage = () => {
       <footer className="bg-gray-900 text-white">
         <div className="container mx-auto py-12 px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-            <img src="/logo.png" alt="Rudys.AI Logo" className="h-8 mb-6 md:mb-0" />
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
               <a href="#features" onClick={(e) => handleSmoothScroll(e, 'features')} className="hover:text-blue-400 transition-colors">Features</a>
               <a href="#upcoming" onClick={(e) => handleSmoothScroll(e, 'upcoming')} className="hover:text-blue-400 transition-colors">Roadmap</a>
