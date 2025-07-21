@@ -116,7 +116,7 @@ const LandingPage = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
                 Create and Manage Google Search Campaigns in Languages You Don't Speak
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-10">
@@ -146,7 +146,7 @@ const LandingPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Meet Rudy – your personal Google Ads expert.</h2>
           <div className="flex flex-col md:flex-row items-center justify-center mb-16">
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 md:mb-0 md:mr-8">
-              <img src="/rudy-profile.png" alt="Rudy" className="w-full h-full object-cover" />
+              <img src="/lovable-uploads/806ab7be-a628-41f6-b9f1-36cef8838668.png" alt="Rudy" className="w-full h-full object-cover" />
             </div>
             <p className="text-xl text-gray-600 max-w-lg text-center md:text-left">
               Rudy is different. He creates and manages Google Search campaigns the way we believe a true specialist should.
@@ -157,7 +157,7 @@ const LandingPage = () => {
               <div className="rounded-full bg-blue-100 w-12 h-12 flex items-center justify-center mb-6">
                 <MessageSquare className="text-blue-600 h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Rudy starts with a tightly focused campaign, just like he would if it were his own money. If it proves efficient, only then does he scale.</h3>
+              <h3 className="text-xl font-bold mb-3">Built Like It's His Own Budget</h3>
               <p className="text-gray-600">Rudy starts with a tightly focused campaign, just like he would if it were his own money. If it proves efficient, only then does he scale.</p>
             </div>
             <div className="feature-card">
@@ -358,9 +358,9 @@ const LandingPage = () => {
           <div className="space-y-4">
             <Accordion type="single" collapsible className="w-full space-y-4">
               <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
-                <AccordionTrigger className="text-lg font-medium py-4">How is Rudy different from traditional Google Ads tools?</AccordionTrigger>
+                <AccordionTrigger className="text-lg font-medium py-4">How is Rudy different from other keyword research tools?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Unlike dashboards with endless menus, Rudy understands natural language. You simply tell him what you need, and he handles everything from keyword research to campaign creation in a conversational flow.
+                  Rudy won't overwhelm you with a massive list of keywords like many traditional, SEO-focused tools do. Instead, he focuses on keywords with real search volume and strong potential to drive conversions for your business.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
@@ -376,9 +376,9 @@ const LandingPage = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
-                <AccordionTrigger className="text-lg font-medium py-4">How fast is keyword research with Rudy?</AccordionTrigger>
+                <AccordionTrigger className="text-lg font-medium py-4">How long does it take to set up a campaign?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Usually within minutes, even for complex or geo-targeted research.
+                  This can be done in just 5 minutes, even in languages where you have no idea what you're actually doing.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5" className="border border-gray-200 rounded-lg px-6">
