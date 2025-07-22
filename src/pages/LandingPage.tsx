@@ -197,26 +197,26 @@ const LandingPage = () => {
                 <p className="text-gray-600 font-medium">Live Demo – Keyword Research with Rudys.AI</p>
               </div>
             </div>
-          </div>
-          </div>
+           </div>
 
           {/* Second Example */}
           <div className="mt-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            <div className="bg-gray-100 rounded-lg aspect-video flex items-center justify-center order-2 lg:order-1">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🎥</div>
-                <p className="text-gray-600 font-medium">Live Demo – Google Search Campaign Setup with Rudys.AI</p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+              <div className="bg-gray-100 rounded-lg aspect-video flex items-center justify-center order-2 lg:order-1">
+                <div className="text-center">
+                  <div className="text-6xl mb-4">🎥</div>
+                  <p className="text-gray-600 font-medium">Live Demo – Google Search Campaign Setup with Rudys.AI</p>
+                </div>
+              </div>
+              <div className="order-1 lg:order-2">
+                <h3 className="text-2xl md:text-3xl font-bold mb-6">Review and Improve Ads with Simple Prompts</h3>
+                <p className="text-xl text-gray-600 leading-relaxed">
+                  If you've used Google Ads Editor, Rudy will feel familiar. He shows you the generated ads in a clear, editable format — and even lets you translate them to English so you understand what's written in any language. Want to tweak the tone or focus? Just give Rudy a prompt, and he'll adjust the ads instantly.
+                </p>
               </div>
             </div>
-            <div className="order-1 lg:order-2">
-              <h3 className="text-2xl md:text-3xl font-bold mb-6">Review and Improve Ads with Simple Prompts</h3>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                If you've used Google Ads Editor, Rudy will feel familiar. He shows you the generated ads in a clear, editable format — and even lets you translate them to English so you understand what's written in any language. Want to tweak the tone or focus? Just give Rudy a prompt, and he'll adjust the ads instantly.
-              </p>
           </div>
         </div>
-      </div>
       </div>
 
       {/* What's Coming Next Section */}
