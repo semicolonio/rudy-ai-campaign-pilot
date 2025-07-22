@@ -86,7 +86,7 @@ const LandingPage = () => {
       {/* Navigation */}
       <nav className="py-4 px-4 md:px-8 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/rudys-logo-new.png" alt="Rudys.AI Logo" className="h-8 md:h-10" />
+          <img src="/lovable-uploads/19e29ab2-e86b-4583-83d2-5ac5d4a3d4f7.png" alt="Rudys.AI Logo" className="h-8 md:h-10" />
         </div>
         <div className="hidden md:flex items-center space-x-8">
           <a href="#features" onClick={(e) => handleSmoothScroll(e, 'features')} className="text-gray-700 hover:text-blue-600 transition-colors">Features</a>
@@ -182,12 +182,8 @@ const LandingPage = () => {
       <div className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Practical Examples</h2>
-        </div>
-      </div>
           
-      {/* First Example */}
-      <div className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 md:px-8">
+          {/* First Example */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-6">Running Local Keyword Research with Rudy</h3>
@@ -202,12 +198,10 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          </div>
 
-      {/* Second Example */}
-      <div className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 md:px-8">
+          {/* Second Example */}
+          <div className="mt-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="bg-gray-100 rounded-lg aspect-video flex items-center justify-center order-2 lg:order-1">
               <div className="text-center">
@@ -220,9 +214,9 @@ const LandingPage = () => {
               <p className="text-xl text-gray-600 leading-relaxed">
                 If you've used Google Ads Editor, Rudy will feel familiar. He shows you the generated ads in a clear, editable format — and even lets you translate them to English so you understand what's written in any language. Want to tweak the tone or focus? Just give Rudy a prompt, and he'll adjust the ads instantly.
               </p>
-            </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* What's Coming Next Section */}
