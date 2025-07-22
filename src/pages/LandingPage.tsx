@@ -86,7 +86,7 @@ const LandingPage = () => {
       {/* Navigation */}
       <nav className="py-4 px-4 md:px-8 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/rudys-logo.png" alt="Rudys.AI Logo" className="h-8 md:h-10" />
+          <img src="/rudys-logo-new.png" alt="Rudys.AI Logo" className="h-8 md:h-10" />
         </div>
         <div className="hidden md:flex items-center space-x-8">
           <a href="#features" onClick={(e) => handleSmoothScroll(e, 'features')} className="text-gray-700 hover:text-blue-600 transition-colors">Features</a>
@@ -112,8 +112,8 @@ const LandingPage = () => {
       </nav>
 
       {/* Hero Section */}
-      <div className="hero-section-padding bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto">
+      <div className="py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
@@ -141,8 +141,8 @@ const LandingPage = () => {
       </div>
 
       {/* Meet Rudy Section */}
-      <div id="features" className="section-padding bg-white">
-        <div className="container mx-auto">
+      <div id="features" className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Meet Rudy – your personal Google Ads expert.</h2>
           <div className="flex flex-col md:flex-row items-center justify-center mb-16">
             <div className="w-40 h-40 rounded-full overflow-hidden mb-6 md:mb-0 md:mr-8">
@@ -171,7 +171,7 @@ const LandingPage = () => {
               <div className="rounded-full bg-blue-100 w-12 h-12 flex items-center justify-center mb-6">
                 <Target className="text-blue-600 h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3">3. Soon: Fully Local Management</h3>
+              <h3 className="text-xl font-bold mb-3">Soon: Fully Local Management</h3>
               <p className="text-gray-600">Rudy will soon manage your local campaigns too. He'll review search terms and exclude anything irrelevant — just like a senior specialist would.</p>
             </div>
           </div>
@@ -179,16 +179,20 @@ const LandingPage = () => {
       </div>
 
       {/* Practical Examples Section */}
-      <div className="section-padding bg-gray-50">
-        <div className="container mx-auto">
+      <div className="py-16 md:py-24 bg-gray-50">
+        <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Practical Examples</h2>
+        </div>
+      </div>
           
-          {/* First Example: Text Left, Video Right */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-16">
+      {/* First Example */}
+      <div className="py-16 md:py-24 bg-gray-50">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-6">Mastering Keyword Research with Rudy</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6">Running Local Keyword Research with Rudy</h3>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Curious how fast Rudy can deliver a solid keyword strategy? In this video, we show how a user requests keyword research for the car rental industry in the Netherlands. Watch how Rudy delivers relevant keywords and instantly refines the list based on conversational commands — saving hours of manual work.
+                In this video, Rudy performs keyword research in German and translates the results into English. This allows you to confidently launch a high-performing Google Search campaign — even in markets where you don't speak the language.
               </p>
             </div>
             <div className="bg-gray-100 rounded-lg aspect-video flex items-center justify-center">
@@ -198,8 +202,12 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          {/* Second Example: Video Left, Text Right */}
+      {/* Second Example */}
+      <div className="py-16 md:py-24 bg-gray-50">
+        <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="bg-gray-100 rounded-lg aspect-video flex items-center justify-center order-2 lg:order-1">
               <div className="text-center">
@@ -208,9 +216,9 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <h3 className="text-2xl md:text-3xl font-bold mb-6">Turning Keywords into Campaigns</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6">Review and Improve Ads with Simple Prompts</h3>
               <p className="text-xl text-gray-600 leading-relaxed">
-                This video demonstrates how easy it is to launch a Google Search campaign once your keyword list is ready. See Rudy create ad groups, write custom ads, and adjust headlines — all through chat. No complex menus, no guesswork — just clear, fast execution.
+                If you've used Google Ads Editor, Rudy will feel familiar. He shows you the generated ads in a clear, editable format — and even lets you translate them to English so you understand what's written in any language. Want to tweak the tone or focus? Just give Rudy a prompt, and he'll adjust the ads instantly.
               </p>
             </div>
           </div>
@@ -218,8 +226,8 @@ const LandingPage = () => {
       </div>
 
       {/* What's Coming Next Section */}
-      <div id="upcoming" className="section-padding bg-white">
-        <div className="container mx-auto">
+      <div id="upcoming" className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Upcoming Features</h2>
           <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             Rudy is evolving fast. Here's what's next:
@@ -245,8 +253,8 @@ const LandingPage = () => {
       </div>
 
       {/* Built for clarity Section */}
-      <div id="about" className="section-padding bg-white">
-        <div className="container mx-auto">
+      <div id="about" className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-1/2 order-2 md:order-1">
               <div className="rounded-xl overflow-hidden shadow-lg">
@@ -275,8 +283,8 @@ const LandingPage = () => {
       </div>
 
       {/* Final CTA / Waitlist Form Section */}
-      <div id="waitlist" className="section-padding bg-gray-50">
-        <div className="container mx-auto max-w-4xl text-center">
+      <div id="waitlist" className="py-16 md:py-24 bg-gray-50">
+        <div className="container mx-auto max-w-4xl text-center px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Request Early Access</h2>
           <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
             Rudy is currently in beta. Request early access to be among the first to experience intelligent Google Ads management.
@@ -352,8 +360,8 @@ const LandingPage = () => {
       </div>
 
       {/* FAQ Section */}
-      <div id="faq" className="section-padding bg-white">
-        <div className="container mx-auto max-w-4xl">
+      <div id="faq" className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto max-w-4xl px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
           <div className="space-y-4">
             <Accordion type="single" collapsible className="w-full space-y-4">
